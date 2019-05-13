@@ -21,7 +21,7 @@ export class UserService {
   }
 
   changeRoles(roles: string[]): void {
-    const nextUser: User = {name: 'Elias', roles };
+    const nextUser: User = {name: 'rahul_raj3', roles };
     localStorage.setItem('user', JSON.stringify(nextUser));
     window.location.reload();
   }
